@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background: #74b9ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title, nav {
+    float: left; /* Listo */
+}
+
+header nav {
+    float: right; /* Listo */
+    margin-top: 50px;
+}
+
+header {
+    overflow: hidden; /* Listo */
+}
+
+.title h1 {
+    vertical-align: bottom; /* Listo */
+    display: table-cell;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif; /* Listo */
+    font-size: 25px; 
+    color: white; 
+    display: table;
+    padding-top: 50px;
+}
+
+
+.main, footer { /* Listo */
+    clear: both;
+}
+
+header, .main, footer {
+    margin: 15px auto; /* Listo */
+    width: 90%;
+    max-width: 1624px;
+}
+
+/* Estilos para la lista de navegacion de opciones*/
+
+header nav ul li {
+    float: left;      /* Listo */
+}
+
+header nav ul {
+    list-style-type: none; /* Listo */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif; /* Listo */
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 20px;
+    margin: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+header nav ul li a:hover {
+    background: #0984e3; /* Listo */
+}
+
+.home {
+    background: #0984e3; /* Listo */
+    border-radius: 25px;
+    padding: 15px;
+}
+
+/* Estilos para la parte del main y el logo */
+
+.main {
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+    height: 640px;
+}
+
+.logo {
+    float: right;
+    max-width: 45%;
+    margin-right: 70px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.articles {
+   width: 45%;
+   position: relative;
+   float: left;
+   position: absolute;
+   top: 50%; 
+   margin-top: -220px;
+   margin-left: 70px;
+}
+
+.articles h2 {
+    font-size: 50px;
+    margin-bottom: 25px;
+    color: #ff7675;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+.articles p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.articles input {
+    border-radius: 30px;
+    padding: 15px;    
+    background-color: #0984e3;
+    color: white;
+    border: outset;
+}
+
+.articles input:hover {
+    cursor: pointer;
+    border: inset;
+}
+
+.articles h2::selection {
+    background: #d63031;
+}
+
+/* Estilos para la parte del footer */
+
+footer {
+    margin-top: -0px;
+}
+
+.social_media img{
+    margin: 20px;
+}
+
+.social_media {
+    text-align: center;
+}
