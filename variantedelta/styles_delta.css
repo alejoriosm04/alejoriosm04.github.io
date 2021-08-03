@@ -1,0 +1,31 @@
+body {
+    margin: 20px auto;
+    margin-top: 70px;
+    width: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bigtext {
+    background: #3EEBA2;
+    padding: 30px;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+}
+
+.day {
+    text-align: center;
+    font-weight: bold;
+}
+
+.image {
+    width: 100%;
+}
+
+.button {
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    overflow: hidden;
+    margin: 10px;
+}
